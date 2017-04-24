@@ -1,0 +1,9 @@
+<resources>
+    <string name="sync_preferences">sync_preferences</string>
+    <string name="date_last_synchronized">date_last_synchronized</string>
+    
+    <string name="current_user_preferences">current_user_preferences</string>
+    <string name="current_user_id">current_user_id</string>
+    <string name="current_user_email">current_user_email</string>
+    <string name="current_user_name">current_user_name</string>
+</resources>

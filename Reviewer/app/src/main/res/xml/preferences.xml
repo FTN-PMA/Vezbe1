@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory 
+        android:title="Auto data sync" 
+        android:key="sync_settings">
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_sync"
+            android:summary="@string/pref_sync_summ"
+            android:title="@string/pref_sync_title" />
+
+        <ListPreference
+            android:dependency="@string/pref_sync"
+            android:dialogTitle="@string/pref_syncConnectionType"
+            android:entries="@array/pref_syncConnectionTypes_entries"
+            android:entryValues="@array/pref_syncConnectionTypes_values"
+            android:key="@string/pref_sync_list"
+            android:title="@string/pref_syncConnectionType" 
+            android:summary="%s"
+            android:defaultValue="1"/>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Places radius" 
+        android:key="radius_settings">
+        
+        <ListPreference
+            android:dialogTitle="@string/pref_radiusConnectionType"
+            android:entries="@array/pref_radiusConnectionTypes_entries"
+            android:entryValues="@array/pref_radiusConnectionTypes_values"
+            android:key="@string/pref_radius"
+            android:title="@string/pref_radiusConnectionType" 
+            android:summary="%s"
+            android:defaultValue="1"/>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/notifications" 
+        android:key="notif_settings">
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/notif_on_my_review_key"
+            android:summary="@string/notif_on_my_review_summ"
+            android:title="@string/notif_on_my_review" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/notif_on_my_comment_key"
+            android:summary="@string/notif_on_my_comment_summ"
+            android:title="@string/notif_on_my_comment" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/notif_on_sync_key"
+            android:summary="@string/notif_on_sync_summ"
+            android:title="@string/notif_on_sync_title" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

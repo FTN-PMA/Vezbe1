@@ -1,0 +1,15 @@
+<resources>
+    <item type="id" name="GROUP_LOADER"/>
+    <item type="id" name="GROUP_REVIEW_LOADER"/>
+    <item type="id" name="GROUP_REVIEW_CHECK_LOADER"/>
+    <item type="id" name="GROUP_USER_LOADER"/>
+    <item type="id" name="GROUP_USER_CHECK_LOADER"/>
+    <item type="id" name="REVOB_IMAGE_LOADER"/>
+    <item type="id" name="REVIEW_IMAGE_LOADER"/>
+    <item type="id" name="REVIEW_TAG_CHECK_LOADER"/>
+    <item type="id" name="REVIEW_OBJECT_TAG_CHECK_LOADER"/>
+    <item type="id" name="REVIEW_OBJECT_LOADER"/>
+    <item type="id" name="COMMENT_LOADER"/>
+    <item type="id" name="TAG_LOADER"/>
+    <item type="id" name="REVIEW_GROUP_CHECK_LOADER"/>
+</resources>
