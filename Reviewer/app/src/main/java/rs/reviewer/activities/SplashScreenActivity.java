@@ -11,15 +11,10 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.util.Patterns;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import rs.reviewer.MainActivity;
 import rs.reviewer.R;
-import com.google.android.gms.auth.GoogleAuthUtil;
-import com.google.android.gms.common.AccountPicker;
 
 public class SplashScreenActivity extends Activity
 {
