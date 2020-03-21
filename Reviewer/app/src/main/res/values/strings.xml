@@ -1,177 +1,33 @@
 <resources>
     <string name="app_name">iReviewer</string>
-
-    <string name="frg_groups">Groups</string>
-
     <string name="search">Search</string>
-
-    <string name="email">Email</string>
-    <string name="profile">Profile</string>
-
     <string name="home">Home</string>
-    <string name="groups">Groups</string>
-    <string name="reviews">Reviews</string>
     <string name="preferences">Preferences</string>
     <string name="about">About</string>
-    <string name="users">Users</string>
-    <string name="detail">Detail</string>
-    <string name="comments">Comments</string>
-    <string name="galery">Galery</string>
-    <string name="position">Location</string>
-
-    <string name="create_review">Create review</string>
-
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
-    <string name="app_not_available">Sorry, there\'s no web browser available</string>
-    <string name="hello_first">Open navigation drawer</string>
-
-    <string name="group_details">Group details</string>
     <string name="add_item">Add</string>
     <string name="edit_item">Edit</string>
     <string name="remove_item">Remove</string>
-
-    <string name="last_date_modified">Last modified</string>
-
-    <string name="review_details">Review details</string>
-    <string name="review_name">Name</string>
-    <string name="review_name_edit">Enter name</string>
-    <string name="review_picture_take">Take</string>
-    <string name="review_picture_choose">Choose</string>
-    <string name="review_picture">Picture</string>
-    <string name="review_rating">Rating</string>
-    <string name="review_tags">Tags</string>
-    <string name="review_tags_list">Enter tags</string>
-    <string name="review_description">Description</string>
-    <string name="review_desc">Enter description</string>
-    <string name="review_image">Image</string>
-
-    <string name="review_object_details">Place details</string>
-    <string name="review_object_name">Name</string>
-    <string name="review_object_rating">Rating</string>
-    <string name="review_object_tags">Tags</string>
-    <string name="review_object_description">Description</string>
-
     <string name="save_item">Save</string>
     <string name="cancel_item">Cancel</string>
-
-    <string name="comment_name">Comment this review</string>
-    <string name="comment_content">Enter comment here..</string>
-    <string name="comment">Comment</string>
-    <string name="cancel">Cancel</string>
-
-    <string name="tag_name">Add tag</string>
-    <string name="tag_content">Enter tag name</string>
-    <string name="new_group">New Group</string>
-    <string name="edit_group">Edit Group</string>
-    <string name="new_group_hint">Enter new group name here..</string>
-    <string name="join_group">Join group</string>
-    <string name="leave_group">Leave group</string>
-
-    <string name="user_count">User count</string>
-    <string name="review_count">Review count</string>
-    <string name="create">Create</string>
-
-    <string name="new_user">New User</string>
-    <string name="register">Register</string>
-    <string name="register_hint">Enter unique username here..</string>
-
     <string name="splash_screen">Splash Screen</string>
-
-    <string name="user_created">Created by</string>
-
-    <string name="are_you_sure">Are you sure?</string>
-
     <string name="places">Places</string>
-
-    <string name="edited">Edited</string>
-    <string name="created">Created</string>
-    <string name="deleted">Deleted</string>
-
     <string name="error">Error</string>
-
-    <string name="image">Image</string>
     <string name="set_as_main">Set as main</string>
-
-    <string name="pref_sync_title">Allow Sync</string>
-    <string name="pref_sync_summ">Allow app to sync data automatically, when wifi is avalible</string>
-    <string name="pref_syncConnectionType">Sync interval</string>
-    <string name="pref_radiusConnectionType">Radius lookup</string>
-
-    <string name="pref_sync_list">pref_sync_list</string>
-    <string name="pref_radius">pref_radius</string>
-    <string name="pref_sync">pref_sync</string>
-
     <string name="notifications">Notifications</string>
-    <string name="notif_on_my_review">On my reviews</string>
-    <string name="notif_on_my_comment">On my comments</string>
-    <string name="notif_on_my_review_key">notif_on_my_review</string>
-    <string name="notif_on_my_comment_key">notif_on_my_comment</string>
-    <string name="notif_on_my_review_summ">Send you notifications on reviews that you have created after sync</string>
-    <string name="notif_on_my_comment_summ">Send you notifications on reviews that you have ccommented after sync</string>
-
-    <string name="notif_on_sync_key">notif_on_sync</string>
-    <string name="notif_on_sync_summ">Send you notifications about sync</string>
-    <string name="notif_on_sync_title">Sync notifications</string>
-
-    <string name="turn_wifi_on">Turn wifi on</string>
-    <string name="turn_notif_on">Stop notification</string>
-
-    <string name="tag_filter">Tag filter</string>
-
-    <string name="created_by">Created by</string>
-
     <string name="sync_data">Sync data</string>
-
     <string name="home_long">Map</string>
-    <string name="groups_long">User groups</string>
     <string name="places_long">Places to review</string>
     <string name="preferences_long">Change your preferences</string>
     <string name="about_long">Get to know about us</string>
     <string name="sync_data_long">Sync data from the repo</string>
-
-    <string name="cant_aquire_account_message">iReviewr cannot acquire account information. Closing now.</string>
-    <string name="no_valid_email_message">Selected account doesn\'t have a valid email, please select another one.</string>
-    <string name="select_account_with_email_message">Please select an account with a valid email address.</string>
-    <string name="username_exists_message">Username already exists.</string>
-    <string name="email_exists_message">Email already exists. Try restarting the application or choosing another account.</string>
-    <string name="cant_register_message">Could not register at this moment, try again later.</string>
-    <string name="name_empty_message">Name must not be empty!</string>
-    <string name="name_alphanum_message">Name must contain only alphanumeric characters!</string>
-    <string name="name_maxlength_message">Name can\'t be longer than {} characters!</string>
-    <string name="desc_alphanum_message">Description must contain only alphanumeric characters or interpunction!</string>
-    <string name="desc_maxlength_message">Description can\'t be longer than {} characters!</string>
-    <string name="enter_place_location_message">Please enter place location.</string>
-    <string name="contains_tag_message">Already contains this tag.</string>
     <string name="location_disabled_message">Your Locations seems to be disabled, do you want to enable it?</string>
-    <string name="comment_empty_message">Comment must not be empty!</string>
-    <string name="comment_alphanum_message">Comment must contain only alphanumeric characters or interpunction!</string>
-    <string name="comment_maxlength_message">Comment can\'t be longer than {} characters!</string>
-    <string name="error_saving_message">Error while saving.</string>
-
-    <string name="gallery">Gallery</string>
-    <string name="tags">Tags</string>
-    <string name="no">No</string>
-    <string name="sure">Sure</string>
     <string name="oops">Ooops</string>
-    <string name="add_photo">Add Photo</string>
-
-    <string name="autosync_problem">Automatic Sync problem</string>
-    <string name="no_internet">Bad news, no internet connection</string>
-    <string name="autosync_warning">Automatic Sync warning</string>
-    <string name="connect_to_wifi">Please connect to wifi to sync data</string>
-    <string name="autosync">Automatic Sync</string>
-    <string name="good_news_sync">Good news, everything is sync now.</string>
-    <string name="new_comments">New comments</string>
-    <string name="new_">New</string>
-    <string name="new_comments_on_reviews">New comments on my reviews: </string>
-    <string name="new_comments_on_comments">New comments on my comments: </string>
-
+    <string name="sure">Sure</string>
+    <string name="no">No</string>
     <string name="logout">Log out</string>
-
-
-    <string name="team">Mobilne aplikacije FTN</string>
-    <string name="title_activity_second">SecondActivity</string>
-
+    <string name="view_profile">View Profile</string>
+    <string name="second_activity">SECOND ACTIVITY</string>
 </resources>

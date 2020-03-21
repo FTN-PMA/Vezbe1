@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Reviewer.iml" filepath="$PROJECT_DIR$/Reviewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Reviewer-app.iml" filepath="$PROJECT_DIR$/app/Reviewer-app.iml" group="Reviewer/app" />
+      <module fileurl="file://$PROJECT_DIR$/Vezbe1-Reviewer.iml" filepath="$PROJECT_DIR$/Vezbe1-Reviewer.iml" group="Reviewer" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
