@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="rs.reviewer">
 
+    <!--
+        Na pocetku aplikacije specificiramo koje sve permisije (prava pristupa) nasa
+        aplikacija zahteva. Svaku permisiju korisnik mora da dopusti. Ovaj oblik permisija
+        se unutar Android-a naziva staticke permisije.
+    -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -16,12 +21,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--
+            Svaka aktivnost minimalno treba da ima XML atribut name, cija vrednost treba da bude
+            putanja do klase koja nasledjuje neku od Activity klasa. Ostali elementi nisu obavezni.
+        -->
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
+        <!--
+            Prilikom pravljenja aktivnosti, moramo dodati i specifikaciju unutar MAnifest file-a, kao
+            XML element <activity>.
+            U svakoj aktivnosti, samo jedna aktivnost treba da bude MAIN activity, da bi Android znao
+            koja je ulazna tacka u vasu aplikaciju (slicno kao main metoda u bilo kom programskom jeziku).
+
+            Koristeci XML element: <intent-filter> mozemo oznaciti koja aktivnost je MAIN aktivnost za nasu
+            aplikakiju tako sto unuar njega treba da specificiramo da je ta aktivnost koristeci <action> podelement.
+        -->
         <activity
             android:name=".activities.SplashScreenActivity"
             android:label="@string/app_name"
@@ -36,6 +55,7 @@
             android:name=".activities.SecondActivity"
             android:label="@string/second_activity"
             android:theme="@style/AppTheme.NoActionBar"/>
+
     </application>
 
 </manifest>
